@@ -1,0 +1,16 @@
+body {
+	background-color: #E1F4FF;
+	text-align: center;
+	font-family: "Helvetica New", monospace;
+	color: black;
+}
+#slogan {
+	font-style: italic;
+}
+a {
+	text-decoration: none;
+}
+h1 {
+	text-transform: uppercase;
+	font-weight: bold;
+}
