@@ -7,13 +7,17 @@ body {
 	text-align: center;
 	color: black;
 }
-
+a {
+	text-decoration: none;
+}
+ul {
+	list-style: none;
+}
 #slogan {
 	font-style: italic;
 }
-
-a {
-	text-decoration: none;
+#nav li {
+    display: inline-block;
 }
 h1 {
 	font-family: 'Cinzel', serif;
