@@ -15,6 +15,7 @@ ul {
 }
 #slogan {
 	font-style: italic;
+	font-size: 20px;
 }
 #nav li {
     display: inline-block;
@@ -23,4 +24,5 @@ h1 {
 	font-family: 'Cinzel', serif;
 	text-transform: uppercase;
 	font-weight: bold;
+	font-size: 40px;
 }
