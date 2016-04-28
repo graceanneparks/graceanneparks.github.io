@@ -1,0 +1,64 @@
+@import url(https://fonts.googleapis.com/css?family=Josefin+Sans);
+@import url(https://fonts.googleapis.com/css?family=Cinzel);
+
+body {
+	font-family: 'Josefin Sans', sans-serif;
+	background-color: #E1F4FF;
+	text-align: center;
+	color: black;
+}
+div {
+	background-color: #FFE2B8;
+	margin: 3em;
+	border: 1px black solid;
+	padding: 20px;
+}
+header {
+	background-color: #FFED74;
+	border: 1px black solid;
+	padding: 20px;
+}
+h1 {
+	font-family: 'Cinzel', serif;
+	text-transform: uppercase;
+	font-weight: bold;
+	font-size: 45px;
+}
+nav {
+	background-color: #E8C66A;
+	border: 1px black solid;
+	padding: 20px;
+}
+span {
+	font-variant: small-caps;
+	border-style: double;
+	margin: 1em;
+	padding: .5em .5em .5em .5em;
+}
+section {
+	background-color: #FFE2B8;
+	border: 1px black solid;
+	padding: 20px;
+}
+a {
+	text-decoration: none;
+}
+ul {
+	list-style: none;
+}
+footer {
+	background-color: #FF957E;
+	border: 1px black solid;
+	padding: 20px;
+}
+#slogan {
+	font-style: italic;
+	font-size: 20px;
+}
+#nav li {
+    display: inline-block;
+    font-weight: bold;
+}
+#picture {
+	padding-top: 1em;
+}
