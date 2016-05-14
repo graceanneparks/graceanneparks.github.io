@@ -22,14 +22,12 @@ a {
 }
 div {
 	background-color: #F3D5E6;
-	border: .5px;
 	padding: 20px;
 }
 header {
 	background-color: #F3D5E6;
 	padding: 30px;
 	clear:both;
-	border: .5px;
 }
 h1 {
 	font-family: 'Cinzel', serif;
@@ -58,14 +56,22 @@ nav {
 	height: 0;
 }
 
+.social {
+	float: right;
+}
+
 .navlink {
 	display: inline-block;
+	opacity: 0.5;
 	color: black;
 	font-variant: small-caps;
 	border-style: double;
 	margin: 1em;
 	padding: .5em .5em .5em .5em;
 	font-weight: bolder;
+}
+.navlink:hover{
+	opacity: 1;
 }
 section {
 	background-color: #F3D5E6;
@@ -98,10 +104,6 @@ footer {
 	width: 62%;
 }
 
-#social {
-	float: right;
-	display: block;
-}
 #slogan {
 	font-style: italic;
 	font-size: 25px;
