@@ -1,6 +1,7 @@
 @import url(https://fonts.googleapis.com/css?family=Josefin+Sans);
 @import url(https://fonts.googleapis.com/css?family=Cinzel);
 @import url(https://fonts.googleapis.com/css?family=Quicksand);
+@import url(https://fonts.googleapis.com/css?family=Rock+Salt);
 
 *,
 *:before,
@@ -16,30 +17,36 @@ body {
 	font-family: 'Josefin Sans', sans-serif;
 	text-align: center;
 }
+
 a {
 	text-decoration: none;
 	color: black;
 }
+
 div {
 	padding: 10px;
 }
+
 header {
 	clear:both;
 }
+
 h1 {
 	font-family: 'Quicksand', sans-serif;
 	text-transform: uppercase;
 	font-weight: bold;
-	font-size: 30px;
+	font-size: 1.8em;
 	color: black;
 }
+
 h2 {
 	float: right;
 	display: block;
 }
+
 nav {
 	padding: 10px;
-	font-size: 20px;
+	font-size: 1.3em;
 }
 
 .clearfix:after {
@@ -67,6 +74,7 @@ nav {
 	padding: .5em .5em .5em .5em;
 	font-weight: bolder;
 }
+
 .navlink:hover{
 	opacity: 1;
 }
@@ -75,6 +83,7 @@ footer {
 	border: 1px;
 	padding: 20px;
 }
+
 #three_column {
 	padding: 20px;
 	border: 1px black solid;
@@ -90,6 +99,9 @@ footer {
 	padding: 20px;
 	float: left;
 	width: 33.3%;
+	font-size: 2.5em;
+	font-family: 'Rock Salt', sans-serif;
+	font-weight: bold;
 
 }
 
@@ -103,16 +115,17 @@ footer {
 	width: 100%;
 }
 
-
 #slogan {
 	font-style: italic;
 	font-size: 25px;
 	padding-bottom: .5em;
 }
+
 #intro {
 	font-size: 20px;
 	padding-top: .5em;
 }
+
 #nav {
     display: inline-block;
     font-weight: bold;
@@ -120,12 +133,18 @@ footer {
 }
 
 #email {
-	font-size: 20px;
+	font-size: 1.3em;
 }
 
-@media screen and (max-width: 900px) {
+@media screen and (max-width: 870px) {
 	#left, #center,#right {
 		float: none;
-		width: 100%;
+		width: 50%;
+	}
+
+}
+@media screen and (max-width: 890px) {
+	#three_column {
+		border: none;
 	}
 }
