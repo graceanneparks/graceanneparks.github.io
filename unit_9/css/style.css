@@ -1,0 +1,150 @@
+@import url(https://fonts.googleapis.com/css?family=Josefin+Sans);
+@import url(https://fonts.googleapis.com/css?family=Cinzel);
+@import url(https://fonts.googleapis.com/css?family=Quicksand);
+@import url(https://fonts.googleapis.com/css?family=Rock+Salt);
+
+*,
+*:before,
+*:after {
+	margin: 0;
+	padding: 0;
+	-moz-box-sizing:border-box;
+	-webkit-box-sizing:border-box;
+	box-sizing: border-box;
+}
+
+body {
+	font-family: 'Josefin Sans', sans-serif;
+	text-align: center;
+}
+
+a {
+	text-decoration: none;
+	color: black;
+}
+
+div {
+	padding: 10px;
+}
+
+header {
+	clear:both;
+}
+
+h1 {
+	font-family: 'Quicksand', sans-serif;
+	text-transform: uppercase;
+	font-weight: bold;
+	font-size: 1.8em;
+	color: black;
+}
+
+h2 {
+	float: right;
+	display: block;
+}
+
+nav {
+	padding: 10px;
+	font-size: 1.3em;
+}
+
+.clearfix:after {
+	visibility: hidden;
+	display: block;
+	font-size: 0;
+	content: " ";
+	clear: both;
+	height: 0;
+}
+
+.social {
+	float: right;
+}
+
+.head {
+	float: left;
+}
+
+.navlink {
+	display: inline-block;
+	opacity: 0.5;
+	color: black;
+	font-variant: small-caps;
+	padding: .5em .5em .5em .5em;
+	font-weight: bolder;
+}
+
+.navlink:hover{
+	opacity: 1;
+}
+
+footer {
+	border: 1px;
+	padding: 20px;
+}
+
+#three_column {
+	padding: 20px;
+	border: 1px black solid;
+}
+
+#left {
+	padding: 20px;
+	float: left;
+	width: 33.3%;
+}
+
+#center {
+	padding: 20px;
+	float: left;
+	width: 33.3%;
+	font-size: 2.5em;
+	font-family: 'Rock Salt', sans-serif;
+	font-weight: bold;
+
+}
+
+#right {
+	padding: 20px;
+	float: right;
+	width: 33.3%;
+}
+#left img, #right img {
+	display: block;
+	width: 100%;
+}
+
+#slogan {
+	font-style: italic;
+	font-size: 25px;
+	padding-bottom: .5em;
+}
+
+#intro {
+	font-size: 20px;
+	padding-top: .5em;
+}
+
+#nav {
+    display: inline-block;
+    font-weight: bold;
+    color: black;
+}
+
+#email {
+	font-size: 1.3em;
+}
+
+@media screen and (max-width: 870px) {
+	#left, #center,#right {
+		float: none;
+		width: 50%;
+	}
+
+}
+@media screen and (max-width: 890px) {
+	#three_column {
+		border: none;
+	}
+}
